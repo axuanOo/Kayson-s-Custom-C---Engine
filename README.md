@@ -56,9 +56,10 @@ Make sure the following are installed:
    git clone https://github.com/YOUR_USERNAME/YOUR_ENGINE_REPO.git
    cd YOUR_ENGINE_REPO
 2. **Open in Visual Studio:**  
-Open Project.sln using Visual Studio.
+Add Engine.project file to your solution using Visual Studio.
 Set the startup project to Game (if available).
+Edit the solution's include file path to make sure include the Code foleder of the engine.
 Select the x64 configuration and choose either Debug or Release.
 
-3. **Run the Engine:**  
+4. **Run the Engine:**  
 Press F5 to build and run.
