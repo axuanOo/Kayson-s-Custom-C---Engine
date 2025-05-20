@@ -36,3 +36,29 @@ Integration with FMOD Studio for spatial audio, environmental reverb, 3D sound e
 XML parsing (TinyXML2), OBJ model loading, and utilities for reading/writing both binary and plaintext files.
 
 # How to use
+### 🔧 Prerequisites
+
+Make sure the following are installed:
+
+- ✅ Windows 10 / 11  
+- ✅ Visual Studio 2022 (with *Desktop development with C++*)  
+- ✅ Windows SDK 10.0+  
+- ✅ DirectX 11 Runtime  
+- ✅ FMOD Studio API
+
+---
+
+### 🚀 Build & Run Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_ENGINE_REPO.git
+   cd YOUR_ENGINE_REPO
+2. **Open in Visual Studio:**  
+Open Project.sln using Visual Studio.
+Set the startup project to Game (if available).
+Select the x64 configuration and choose either Debug or Release.
+
+3. **Run the Engine:**  
+Press F5 to build and run.
